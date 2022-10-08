@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <section>
+        <div class="section-inner">
+
+            <div>
+                <div>
+                    <p class="description">Assalomu alaykum, bu sahifada siz istagan shaharingizda aynan hozirgi
+                        paytdagi ob-havo
+                        ma'lumotini bilib olishingiz mumkin</p>
+                    <!-- <div>
+                        <label for="country" class="title">Shahar nomini kiriting:</label>
+                    </div> -->
+                    <input type="text" id="country" placeholder="Shahar nomini kiriting ...">
+                </div>
+
+                <button id="btn" class="btn-grad">
+                    <i class="fa fa-eye"></i>
+                    Ob-havoni ko'rish
+                </button>
+            </div>
+
+            <div id="info">
+                <div>
+                    <span>Xarorat: </span>
+                    <span id="temp"></span>
+                </div>
+                <div>
+                    <span>Maksimal xarorat: </span>
+                    <span id="max_temp"></span>
+                </div>
+                <div>
+                    <span>Namlik: </span>
+                    <span id="humidity"></span>
+                </div>
+                <div>
+                    <span>Minimal xarorat: </span>
+                    <span id="min_temp"></span>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>

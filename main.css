@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(to bottom, #6699ff 0%, #ffffff 100%);
+}
+
+section {
+    width: 100vw;
+    /** brauzer oynasini enini 100% joyini olsin 
+    vw --> verical width
+    vh --> vertical height */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-inner {
+    border: 3px solid black;
+    padding: 50px 80px 50px 80px;
+    /* top(tepa), right(ong), bottom(past), left(chap) */
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+    font-weight: 700;
+}
+
+#country {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    /* background: none; */
+    padding: 10px 15px 10px 15px;
+    /* border-radius: 5px; */
+    background: none;
+    border-bottom: 3px solid white;
+    font-size: 24px;
+    font-style: italic;
+}
+
+#country::placeholder {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+#btn {
+    font-size: 24px;
+    padding: 5px;
+    width: 100%;
+    border: none;
+}
+
+
+.btn-grad {
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376 51%, #2b5876 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+#info {
+    /* display: none; */
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px 50px;
+}
+
+.description {
+    font-size: 20px;
+    font-style: italic;
+}
